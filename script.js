@@ -6,7 +6,8 @@ function idCard(){
   var address= document.getElementById("address").value;
   
   
-  document.getElementById("postFullName").innerHTML = firstName;
-  document.getElementById("postFullName").innerHTML = lastName;
+  document.getElementById("postFullName").innerHTML = firstName + " " + lastName;
   document.getElementById("postAddress").innerHTML = address;
+  document.getElementById("postAge").innerHTML = age;
+  document.getElementById("phoneNumber").innerHTML = phoneNumber;
 }
