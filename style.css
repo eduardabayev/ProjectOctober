@@ -1,28 +1,23 @@
-.center {
-
 img {
 
+  width: 90px;
 
-width: 90px;
+  height: 90px;
 
-height: 90px;
-
-float: left;
+  float: left;
 
 }
 
 #idCard {
  
-background-color:orange;
-color:black;
+  background-color:pink;
+  color:black;
 
-border: 5px solid black;
+  border: 5px solid black;
 
-    
+  height: 14em;
 
-height: 14em;
-
-width: 25em;
+  width: 25em;
 
 }
 
@@ -30,7 +25,7 @@ body{
   background-color:DeepSkyBlue;
   color:black;
    
-
-
-}
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
