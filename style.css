@@ -1,0 +1,35 @@
+
+
+img {
+
+
+width: 90px;
+
+height: 90px;
+
+float: left;
+
+}
+
+#idCard {
+ 
+background-color:orange;
+color:black;
+
+border: 5px solid black;
+
+    
+
+height: 14em;
+
+width: 25em;
+
+}
+
+body{
+  background-color:DeepSkyBlue;
+  color:black;
+   
+
+
+}
