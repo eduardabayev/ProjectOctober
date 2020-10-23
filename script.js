@@ -18,6 +18,6 @@ function idCard(){
   }
   document.getElementById("postFullName").innerHTML = firstName + " " + lastName;
   document.getElementById("postAddress").innerHTML = address;
-  document.getElementById("postAge").innerHTML = age;
-  document.getElementById("postPhoneNumber").innerHTML = phoneNumber;
+  
+  
 }
