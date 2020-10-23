@@ -9,7 +9,7 @@ function idCard(){
   numberArray.push(age);
   numberArray.push(phoneNumber);
   var i;
-  for (i = 0; i < cars.length; i++) {
+  for (i = 0; i < numberArray.length; i++) {
     text += cars[i] + "<br>";
   }
 
