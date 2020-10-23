@@ -16,7 +16,7 @@ function idCard(){
       document.getElementById("postPhoneNumber").innerHTML = ("Phone Number" + " " + phoneNumber);
     }
   }   
-}
+
   document.getElementById("postFullName").innerHTML = firstName + " " + lastName;
   document.getElementById("postAddress").innerHTML = address;
   
