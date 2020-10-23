@@ -14,7 +14,7 @@ function idCard(){
     }
     else if (numberArray[i] > 100){
       document.getElementById("postPhoneNumber").innerHTML = ("Phone Number" + " " + phoneNumber);
-    }
+    }}
   document.getElementById("postFullName").innerHTML = firstName + " " + lastName;
   document.getElementById("postAddress").innerHTML = address;
   document.getElementById("postAge").innerHTML = age;
