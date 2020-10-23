@@ -8,10 +8,10 @@ function idCard(){
   numberArray = [];
   numberArray.push(age);
   numberArray.push(phoneNumber);
-  for(let i = 0; i < age.100; i++) {
-  console.log(age[i]);}
-  for(let i = 0; i < phoneNumber.100; i++) {
-  console.log(phoneNumber[i]);}
+  var i;
+  for (i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+}
 
   document.getElementById("postFullName").innerHTML = firstName + " " + lastName;
   document.getElementById("postAddress").innerHTML = address;
