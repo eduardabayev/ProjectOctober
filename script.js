@@ -5,7 +5,9 @@ function idCard(){
   var age= document.getElementById("Age").value;
   var phoneNumber= document.getElementById("phoneNumber").value;
   
-  let numberArray = ["age", "phoneNumber"];
+  numberArray = [];
+  numberArray.push("age");
+  numberArray.push("phoneNumber");
   for(let i = 0; i < age.100; i++) {
   console.log(age[i]);}
   for(let i = 0; i < phoneNumber.100; i++) {
