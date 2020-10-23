@@ -10,11 +10,11 @@ function idCard(){
   numberArray.push(phoneNumber);
   var i;
   for (i = 0; i < cars.length; i++) {
-  text += cars[i] + "<br>";
-}
+    text += cars[i] + "<br>";
+  }
 
   document.getElementById("postFullName").innerHTML = firstName + " " + lastName;
   document.getElementById("postAddress").innerHTML = address;
   document.getElementById("postAge").innerHTML = age;
   document.getElementById("postPhoneNumber").innerHTML = phoneNumber;
-}
+  }
