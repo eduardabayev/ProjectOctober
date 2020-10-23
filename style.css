@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: DeepSkyBlue;
+    background-color: skyblue;
 }
 
 input {
@@ -15,7 +15,7 @@ button {
 #idCard {
     font-family: 'Poor Story', sans-serif;
     text-align: left;
-    background-color: Pink;
+    background-color: pink;
     border: 5px solid black;
     border-radius: 40px;
     height: 14em;
