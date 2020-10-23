@@ -1,32 +1,41 @@
-img {
+body {
+    text-align: center;
+    background-color: DeepSkyBlue;
+}
 
-  width: 90px;
+input {
+    text-align: center;
+    margin: 2px;
+}
 
-  height: 90px;
-
-  float: left;
-
+button {
+    margin: 4px;
 }
 
 #idCard {
- 
-  background-color:pink;
-  color:black;
-
-  border: 5px solid black;
-
-  height: 14em;
-
-  width: 25em;
-
-  font-family: Impact, Charcoal, sans-serif;
+    font-family: 'Poor Story', sans-serif;
+    text-align: left;
+    background-color: Pink;
+    border: 5px solid black;
+    border-radius: 40px;
+    height: 14em;
+    width: 25em;
+    display: inline-block;
+    margin-top: 70px;
 }
 
-body{
-  background-color:DeepSkyBlue;
-  color:black;
-   
-  margin: auto;
-  width: 50%;
-  padding: 10px;
+img {
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+
+#postFullName {
+    text-align: center;
+    font-size: x-large;
+}
+
+p {
+    padding-top: 2%;
+    padding-left: 5%;
 }
